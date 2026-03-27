@@ -1,9 +1,9 @@
 output "web_public_ip" {
-  description = "IP público da instância web"
+  description = "Public IP address of the web instance"
   value       = module.web.public_ip
 }
 
 output "web_vpc_id" {
-  description = "ID da VPC criada"
+  description = "VPC ID created"
   value       = module.web.vpc_id
 }
