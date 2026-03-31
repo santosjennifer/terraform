@@ -2,14 +2,14 @@
 
 Este repositório provisiona uma infraestrutura simples na AWS usando Terraform.
 
-## Como o projeto esta organizado
+## Como o projeto está organizado
 
 - `bootstrap/`: cria o bucket S3 `tfstate-terraform-santos`, usado para armazenar o estado remoto do Terraform.
 - `terraform/`: provisiona a infraestrutura principal.
 - `terraform/modules/web-server/`: módulo reutilizavel que cria rede, security group e instância EC2.
 - `.github/workflows/`: pipelines de `plan`, `apply` e `destroy`.
 
-## O que e criado
+## O que é criado
 
 Depois que o bucket de estado existe, o Terraform principal cria:
 
@@ -70,6 +70,6 @@ O repositório possui dois workflows:
 
 ## Observações
 
-- O backend remoto esta fixado no bucket `tfstate-terraform-santos`.
+- O backend remoto está fixado no bucket `tfstate-terraform-santos`.
 - A região configurada no backend e nas pipelines é `us-east-1`.
 - O projeto está preparado para um ambiente simples de desenvolvimento, não para produção.
