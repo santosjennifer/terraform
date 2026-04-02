@@ -1,3 +1,6 @@
+![Last Commit](https://img.shields.io/github/last-commit/santosjennifer/terraform)
+[![CI](https://github.com/santosjennifer/terraform/actions/workflows/terraform_pipeline.yaml/badge.svg)](https://github.com/santosjennifer/terraform/actions/workflows/terraform_pipeline.yaml)
+
 # Terraform AWS
 
 Este repositório provisiona uma infraestrutura simples na AWS usando Terraform.
